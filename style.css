@@ -1,1 +1,10 @@
-
+#cuerpo{
+    background-color: black;
+}
+#titulo{
+    color: white;
+}
+#estreno{
+    background-color: white;
+    color: black;
+}
