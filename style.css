@@ -1,6 +1,46 @@
+#up{
+    display: flex;
+    justify-content: space-between;
+}
+#titulo1{
+    color: white;
+    font-family: "Bruno Ace SC";
+}
+h1{
+    color: white;
+}
+#nav {
+    display: flex;
+    color: white;
+    list-style: none;
+}
+
+.li {
+    margin-left: 10px;
+    font-family: "Bruno Ace SC";
+    transition: transform 0.3s ease-in-out;
+}
+.li :hover{
+    transform: scale(1.1);
+}
+span{
+    color: white;
+    font-family: "Bruno Ace SC";
+}
 #cuerpo{
     background-color: black;
 }
+#peli {
+    transition: transform 0.3s ease-in-out;
+    font-family: "Bruno Ace SC";
+    padding: 5px;
+    
+
+  }
+  
+#peli:hover {
+    transform: scale(1.1);
+  }
 #titulo{
     color: white;
 }
