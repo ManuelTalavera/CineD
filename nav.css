@@ -1,0 +1,19 @@
+#nav {
+    display: flex;
+    color: white;
+    list-style: none;
+}
+
+.li {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Bruno Ace SC";
+}
+#up{
+    display: flex;
+    justify-content: space-between;
+}
+#titulo1{
+    color: white;
+    font-family: "Bruno Ace SC";
+}

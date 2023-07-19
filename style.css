@@ -1,41 +1,37 @@
-#up{
-    display: flex;
-    justify-content: space-between;
-}
-#titulo1{
-    color: white;
-    font-family: "Bruno Ace SC";
-}
-h1{
-    color: white;
-}
-#nav {
-    display: flex;
-    color: white;
-    list-style: none;
-}
 
-.li {
-    margin-left: 10px;
+select{
+    background-color:black ;
+    color: white;
     font-family: "Bruno Ace SC";
-    transition: transform 0.3s ease-in-out;
-}
-.li :hover{
-    transform: scale(1.1);
 }
 span{
     color: white;
     font-family: "Bruno Ace SC";
 }
+option{
+    font-family: "Bruno Ace SC";
+}
+img{
+    align-items: center;
+}
+.pelis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    
+  }
 #cuerpo{
     background-color: black;
 }
 #peli {
     transition: transform 0.3s ease-in-out;
     font-family: "Bruno Ace SC";
+    text-align: center;
     padding: 5px;
-    
-
+    width: 310px;
+    align-items: baseline;
+    justify-content: space-around;
   }
   
 #peli:hover {

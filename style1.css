@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+}
+
+h3, h4, p{
+    color: white;
+    font-family: "Bruno Ace SC";
+}
+
+.peli {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    font-family: "Bruno Ace SC";
+  }
+  
+  .imagen {
+    margin-bottom: 10px; /* Espacio entre el encabezado y la imagen */
+  }
+  .sinopsis {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #asientos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pantalla{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    border: 1px solid white; 
+    border-radius: 100%;
+  }
+  .tabla{
+    width: 670px;
+  }
+  button{
+    width: 110px;
+    background-color: black;
+    color: #606060;
+    border: black;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: "Bruno Ace SC";
+  }
+  button:hover{
+    color: white;
+    box-shadow: 1px 1px 20px 1px white;
+    transition: all 0.8s;
+  }
+  button:visited{
+    color: white;
+    box-shadow: 1px 1px 20px 1px white;
+  }
+  h4, p {
+    margin: 0;
+  }
+.peli h3{
+    margin-right: 10px;
+}
+.peli img{
+    margin-right: 10px;
+}
