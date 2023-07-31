@@ -19,6 +19,7 @@ a:link, a:hover, a:visited, a:active, a {
     color:black;
 }
 .pelis{
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -47,4 +48,11 @@ a:link, a:hover, a:visited, a:active, a {
 #estreno{
     background-color: white;
     color: black;
+}
+@media (max-width: 768px){
+    .pelis{
+        display: flex;
+        justify-content: center;
+        margin-right: 27px;
+    }
 }

@@ -17,3 +17,13 @@
     color: white;
     font-family: "Bruno Ace SC";
 }
+body{
+    background-color: black;
+}
+@media (max-width: 768px){
+    #nav{
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+}
