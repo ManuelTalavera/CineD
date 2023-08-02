@@ -12,6 +12,8 @@ let checkboxes = document.querySelectorAll(".custom-checkbox input[type='checkbo
 addCheckboxesListener();
 console.log("se ejecuto");
 let asiento = document.getElementById("asiento");
+let sala = document.getElementById("elegir");
+let botonesHora = document.getElementsByClassName("hora");
 
 function incrementar() {
   valorActual++;
@@ -73,4 +75,9 @@ function addCheckboxesListener(){
     
     });
   })}
-
+  for (let i = 0; i < botonesHora.length; i++) {
+    botonesHora[i].addEventListener("click", function() {
+        // Cambiamos el estilo de visualización del div "elegir" para que sea visible (block)
+        sala.style.display = "block";
+    });
+}

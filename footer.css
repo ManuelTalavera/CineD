@@ -1,0 +1,10 @@
+footer{
+    border: #2F2F2F solid;
+    background-color: #616161;
+    color: white;
+    border-color: gray;
+}
+.logo{
+    width: 32px;
+    height: 32px;
+}

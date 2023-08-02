@@ -1,5 +1,6 @@
 body{
     background-color: black;
+      overflow-x: hidden;
 }
 
 h3, h4, p{
@@ -16,7 +17,7 @@ h3, h4, p{
   }
   
   .imagen {
-    margin-bottom: 10px; /* Espacio entre el encabezado y la imagen */
+    margin-bottom: 10px;
   }
   .sinopsis {
     display: flex;
@@ -94,11 +95,28 @@ h3, h4, p{
     flex-direction: column;
   }
   .tabla{
+    
     display: flex;
     flex-wrap: wrap;
+    overflow-x: hidden;
+    max-width: 100%; 
+    margin: 0 auto; 
+    overflow: hidden; 
   }
+  body {
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+}
   .botones{
     display: flex;
     flex-flow: column;
+  }
+  #elegir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
   }
 }
