@@ -1,0 +1,18 @@
+footer{
+border: #2F2F2F solid;
+background-color: #616161;
+color: white;
+border-color: gray;
+text-align: center;
+    font-family: "Bruno Ace SC";
+}
+h3,
+h4,
+p {
+    color: white;
+    font-family: "Bruno Ace SC";
+}
+.logo {
+    width: 32px;
+    height: 32px;
+}

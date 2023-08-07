@@ -1,10 +1,26 @@
-footer{
+footer {
     border: #2F2F2F solid;
     background-color: #616161;
     color: white;
     border-color: gray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+
+    padding: 20px;
+    text-align: center;
+    font-family: "Bruno Ace SC";
 }
-.logo{
+
+.logo {
     width: 32px;
     height: 32px;
+}
+
+h3,
+h4,
+p {
+    color: white;
+    font-family: "Bruno Ace SC";
 }

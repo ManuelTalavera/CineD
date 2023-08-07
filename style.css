@@ -49,6 +49,8 @@ a:link, a:hover, a:visited, a:active, a {
     background-color: white;
     color: black;
 }
+
+  
 @media (max-width: 768px){
     .pelis{
         display: flex;
