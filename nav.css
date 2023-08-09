@@ -3,7 +3,9 @@
     color: white;
     list-style: none;
 }
-
+a{
+    list-style: none;
+}
 .li {
     margin-right: 10px;
     margin-left: 10px;
