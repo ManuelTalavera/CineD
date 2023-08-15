@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", () => {
   ;
 });
+
 const cant_filas=10;
 const cant_asientos =10;
 let filas = armarAsientos(cant_filas,cant_asientos);
@@ -68,6 +69,9 @@ function addCheckboxesListener(){
       if (asientosOcupados>valorActual){
         this.checked=false;
         asientosOcupados--;
+      }
+      if (asientosOcupados>valorActual-1){
+        decrementar=false;
       }
       else{
 
