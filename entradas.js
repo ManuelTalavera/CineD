@@ -15,13 +15,15 @@ console.log("se ejecuto");
 let asiento = document.getElementById("asiento");
 let sala = document.getElementById("elegir");
 let botonesHora = document.getElementsByClassName("hora");
+let decrementarActivado = true;
+const boton1 = document.getElementsByClassName("nuentradas1");
 
 function incrementar() {
   valorActual++;
   actualizarValor();
 }
 function decrementar() {
-  if (valorActual > 0) {
+  if (valorActual > 0 && decrementarActivado) {
     valorActual--;
     actualizarValor();
   }
@@ -69,19 +71,13 @@ function addCheckboxesListener(){
       if (asientosOcupados>valorActual){
         this.checked=false;
         asientosOcupados--;
+        boton1.disabled= true;
       }
-      if (asientosOcupados>valorActual-1){
-        decrementar=false;
-      }
-      else{
-
-      }
-    
     });
   })}
+
   for (let i = 0; i < botonesHora.length; i++) {
     botonesHora[i].addEventListener("click", function() {
-        // Cambiamos el estilo de visualización del div "elegir" para que sea visible (block)
         sala.style.display = "block";
     });
 }
